@@ -15,3 +15,6 @@ I’ve successfully completed Task 1 of my internship at Codesoft – building a
  2️⃣ Landing Page for Car Sales
  3️⃣ Calculator Web App
 🧠 This project helped me apply what I’ve learned and gave me confidence in frontend development!
+
+
+RUN HOME PAGE 
