@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #1f1f1f, #2b2b2b);
+      font-family: 'Poppins', sans-serif;
+      color: #f0f0f0;
+      display: flex;
+      height: 100vh;
+    }
+    .nav-bar {
+      background-color: #444;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      align-items: center;
+      list-style: none;
+      margin: 0;
+      gap: 30px;
+      min-width: 180px;
+    }
+
+    .nav-bar li a {
+      color: #f0f0f0;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 10px 15px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      display: block;
+    }
+
+    .nav-bar li a:hover {
+      background-color: #bbb;
+      color: #111;
+      transform: scale(1.05);
+    }
+    .container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .main-content {
+      width: 600px;
+      height: 400px;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(8px);
+      padding-top: 50px;
+      border-radius: 20px;
+      border: 1px solid rgba(200, 200, 200, 0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .social-icons {
+      display: flex;
+      gap: 25px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+    }
+
+    .social-icons a img {
+      width: 60px;
+      height: 60px;
+      filter: brightness(0.75);
+      transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+    }
+
+    .social-icons a:hover img {
+      transform: scale(1.2) rotate(5deg);
+      filter: brightness(1);
+      box-shadow: 0 0 18px rgba(255, 255, 255, 0.7);
+      cursor: pointer;
+    }
+    h2 {
+      margin: 0 0 20px 0;
+      font-weight: 600;
+      font-size: 2em;
+      background: linear-gradient(to right, #bbb, #fff);
+      -webkit-background-clip: text;
+      color: transparent;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 2px #888; }
+      to { text-shadow: 0 0 10px #fff; }
+    }
+  </style>
+</head>
+<body>
+
+  <ul class="nav-bar">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="container">
+    <div class="main-content">
+        <h2>Contact Info</h2>
+      <div class="social-icons">
+        <a href="https://mail.google.com/mail/u/0/" target="_blank" rel="noopener noreferrer">
+          <img src="email.png" alt="Email" />
+        </a>
+        <a href="https://wa.link/feccx1" target="_blank" rel="noopener noreferrer">
+          <img src="whatapp.png" alt="WhatsApp" />
+        </a>
+        <a href="https://www.linkedin.com/in/pravallika-maturi-3aa93a302?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BfNx8eICXS7ujclos0yu4Ew%3D%3D" target="_blank" rel="noopener noreferrer">
+          <img src="linkdin.png" alt="LinkedIn" />
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
