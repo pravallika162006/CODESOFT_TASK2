@@ -1,4 +1,4 @@
-# CODESOFT_TASK1
+# CODESOFT_TASK2
 TASK 1: PORTFOLIO
 
 I’ve successfully completed Task 1 of my internship at Codesoft – building a Personal Portfolio Website!
